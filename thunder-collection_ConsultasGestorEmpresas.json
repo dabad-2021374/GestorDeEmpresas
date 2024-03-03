@@ -1,0 +1,399 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "ConsultasGestorEmpresas",
+    "dateExported": "2024-03-03T18:07:40.206Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "70dd2887-4d8e-4e25-b4c9-b41c39a76870",
+            "name": "ADMIN",
+            "containerId": "",
+            "created": "2024-03-01T03:12:33.684Z",
+            "sortNum": 10000,
+            "settings": {
+                "headers": [
+                    {
+                        "name": "authorization",
+                        "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUzYjZlNDM5ODM1N2E1YmZmNWY0NjgiLCJ1c2VybmFtZSI6Im5vc2UiLCJuYW1lIjoiRGVuaXNzIiwicm9sZSI6IkFETUlOIiwiaWF0IjoxNzA5NDIyMzEwLCJleHAiOjE3MDk0MzMxMTB9.UKv_zIKRkn9Gvm3XD4N8pb7Kaqz59qBa81G-35vpEas"
+                    }
+                ]
+            }
+        }
+    ],
+    "requests": [
+        {
+            "_id": "230727d5-bd8b-4e9b-bb16-ea272ce71321",
+            "colId": "9cd38ad4-98c8-4c52-88f0-c5729b640884",
+            "containerId": "70dd2887-4d8e-4e25-b4c9-b41c39a76870",
+            "name": "Test",
+            "url": "localhost:4656/test",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-25T01:53:02.283Z",
+            "modified": "2024-02-25T18:11:07.451Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0f4459f3-8cf6-4dd4-b942-d13d89585afd",
+            "colId": "9cd38ad4-98c8-4c52-88f0-c5729b640884",
+            "containerId": "",
+            "name": "Register User",
+            "url": "localhost:4656/registerUser",
+            "method": "POST",
+            "sortNum": 12500,
+            "created": "2024-02-25T02:50:08.376Z",
+            "modified": "2024-03-02T23:33:09.006Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Deniss"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Abad"
+                    },
+                    {
+                        "name": "username",
+                        "value": "dabad"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "email",
+                        "value": "debad-2021374@kinal.edu.gt"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "role",
+                        "value": ""
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "99490776-d31a-42f3-a289-17f2ecd65835",
+            "colId": "9cd38ad4-98c8-4c52-88f0-c5729b640884",
+            "containerId": "",
+            "name": "Login",
+            "url": "localhost:4656/login",
+            "method": "POST",
+            "sortNum": 25000,
+            "created": "2024-02-25T05:19:39.001Z",
+            "modified": "2024-03-02T23:31:38.771Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "username",
+                        "value": "nose"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "c12d4b30-4fbc-4749-ba0d-8a8f8c1473a1",
+            "colId": "9cd38ad4-98c8-4c52-88f0-c5729b640884",
+            "containerId": "70dd2887-4d8e-4e25-b4c9-b41c39a76870",
+            "name": "Update User",
+            "url": "localhost:4656/updateUser/65e14bac4a99d6ca797c589d",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-02-25T18:04:56.940Z",
+            "modified": "2024-03-01T03:31:07.030Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Denis"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "Abad"
+                    },
+                    {
+                        "name": "username",
+                        "value": "dabadd"
+                    },
+                    {
+                        "name": "password",
+                        "value": "",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "email",
+                        "value": "",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "phone",
+                        "value": "",
+                        "isDisabled": true
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "42480f08-b223-4fab-a29c-d47f2cef15ee",
+            "colId": "9cd38ad4-98c8-4c52-88f0-c5729b640884",
+            "containerId": "70dd2887-4d8e-4e25-b4c9-b41c39a76870",
+            "name": "Delete User",
+            "url": "localhost:4656/deleteUser/65e14bac4a99d6ca797c589d",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-02-25T18:08:01.022Z",
+            "modified": "2024-03-01T03:32:45.779Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "32722d4c-e1f9-49e1-be76-73c3dc135338",
+            "colId": "9cd38ad4-98c8-4c52-88f0-c5729b640884",
+            "containerId": "70dd2887-4d8e-4e25-b4c9-b41c39a76870",
+            "name": "save Category",
+            "url": "localhost:4656/saveCategory",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-02-25T03:45:11.437Z",
+            "modified": "2024-03-01T03:33:24.928Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Videojuegos"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Categoria de videojuegos"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "e4afe991-4e28-498b-adb6-fe13a2e5a968",
+            "colId": "9cd38ad4-98c8-4c52-88f0-c5729b640884",
+            "containerId": "70dd2887-4d8e-4e25-b4c9-b41c39a76870",
+            "name": "saveCompany",
+            "url": "localhost:4656/saveCompany",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-02-25T02:41:55.431Z",
+            "modified": "2024-03-01T03:34:10.550Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Rockstar games"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Desarrollo de videojuegos"
+                    },
+                    {
+                        "name": "impactLevel",
+                        "value": "Alto"
+                    },
+                    {
+                        "name": "yearsExperience",
+                        "value": "30"
+                    },
+                    {
+                        "name": "contact",
+                        "value": "rockstarg@gmail.com"
+                    },
+                    {
+                        "name": "category",
+                        "value": "65e14c844a99d6ca797c58aa"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "d2cbdb91-b4dc-4789-a678-9b11c6e26a05",
+            "colId": "9cd38ad4-98c8-4c52-88f0-c5729b640884",
+            "containerId": "70dd2887-4d8e-4e25-b4c9-b41c39a76870",
+            "name": "Update company",
+            "url": "localhost:4656/updateCompany/65e14cb24a99d6ca797c58ad",
+            "method": "PUT",
+            "sortNum": 70000,
+            "created": "2024-02-25T03:22:55.020Z",
+            "modified": "2024-03-01T03:37:04.778Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Rockstar games",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "description",
+                        "value": "",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "impactLevel",
+                        "value": "",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "yearsExperience",
+                        "value": "",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "contact",
+                        "value": "rockstar@gmail.com"
+                    },
+                    {
+                        "name": "category",
+                        "value": "",
+                        "isDisabled": true
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "d2ca79e1-fd6b-481a-adc5-d8b9a1d0ee5f",
+            "colId": "9cd38ad4-98c8-4c52-88f0-c5729b640884",
+            "containerId": "70dd2887-4d8e-4e25-b4c9-b41c39a76870",
+            "name": "Get companies",
+            "url": "localhost:4656/getCompanies",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2024-02-25T04:35:45.565Z",
+            "modified": "2024-02-25T04:36:12.193Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "5d55692c-f3cd-4250-994a-2afac121e4e7",
+            "colId": "9cd38ad4-98c8-4c52-88f0-c5729b640884",
+            "containerId": "70dd2887-4d8e-4e25-b4c9-b41c39a76870",
+            "name": "Filter company A - Z",
+            "url": "localhost:4656/filterAZ",
+            "method": "GET",
+            "sortNum": 90000,
+            "created": "2024-02-25T03:14:28.888Z",
+            "modified": "2024-02-25T03:15:22.198Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "60aa9e4a-4478-4ced-b1ab-58b373b59a6f",
+            "colId": "9cd38ad4-98c8-4c52-88f0-c5729b640884",
+            "containerId": "70dd2887-4d8e-4e25-b4c9-b41c39a76870",
+            "name": "Filter company Z - A",
+            "url": "localhost:4656/filterZA",
+            "method": "GET",
+            "sortNum": 100000,
+            "created": "2024-02-25T03:15:32.270Z",
+            "modified": "2024-02-25T03:15:59.901Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a19d8362-27a1-4251-802c-c54afc2a04ba",
+            "colId": "9cd38ad4-98c8-4c52-88f0-c5729b640884",
+            "containerId": "70dd2887-4d8e-4e25-b4c9-b41c39a76870",
+            "name": "Filter years experience",
+            "url": "localhost:4656/filterYearsExperience",
+            "method": "GET",
+            "sortNum": 110000,
+            "created": "2024-02-25T03:35:45.997Z",
+            "modified": "2024-02-25T03:37:27.412Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f0bcd133-94a7-467f-b886-a6b6de4dbd0d",
+            "colId": "9cd38ad4-98c8-4c52-88f0-c5729b640884",
+            "containerId": "70dd2887-4d8e-4e25-b4c9-b41c39a76870",
+            "name": "Filter Category",
+            "url": "localhost:4656/filterCategory",
+            "method": "POST",
+            "sortNum": 120000,
+            "created": "2024-02-25T04:00:43.128Z",
+            "modified": "2024-03-01T16:28:18.133Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "category",
+                        "value": "65dab7f450df804183e671d3"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "3140c109-0133-4942-b260-f7ca884bb95c",
+            "colId": "9cd38ad4-98c8-4c52-88f0-c5729b640884",
+            "containerId": "70dd2887-4d8e-4e25-b4c9-b41c39a76870",
+            "name": "Generate excel",
+            "url": "localhost:4656/generateExcel",
+            "method": "GET",
+            "sortNum": 130000,
+            "created": "2024-02-25T05:02:06.772Z",
+            "modified": "2024-03-01T03:21:57.539Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ],
+    "settings": {
+        "headers": [
+            {
+                "name": "token",
+                "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWRiODQxYTAxM2I2ZDdiZjNlNmU1MTEiLCJ1c2VybmFtZSI6InNzYW50b3MiLCJuYW1lIjoiRGVuaXMiLCJyb2xlIjoiQURNSU4iLCJpYXQiOjE3MDg4ODUyMjIsImV4cCI6MTcwODg5NjAyMn0.CV9xWKMt2tnyQiV3WulPWKvMOzM26EuZmgBPs8JqEjc"
+            }
+        ]
+    }
+}
